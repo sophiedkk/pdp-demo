@@ -1,6 +1,6 @@
 # PDP Godot Demo
 
-Project setup and assets for three small demo's during PDP.
+Project setup and assets for three small demos during PDP: Catch the Eierballen, Rolling a Die, and Asteroids.
 
 ## Prerequisites:
 
