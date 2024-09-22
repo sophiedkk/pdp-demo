@@ -1,5 +1,5 @@
 six-sided-die.png: https://kicked-in-teeth.itch.io/dice-roll (CC-BY-SA)
-dice-142528.mp3: Sound Effect by u_qpfzpydtro from Pixabay (https://pixabay.com/service/license-summary/)
+dice-142528.mp3, 8-bit-victory-sound-101319.mp3, energetic-bgm-242515.mp3: Pixabay (https://pixabay.com/service/license-summary/)
 groningen_wikipedia.jpg: Michiel Verbeek (CC-BY-SA)
 eierbal_wikipedia_cropped.png: Erik009 (CC-BY-SA)
 space_ship.png, projectile.png: https://foozlecc.itch.io/void-main-ship (CC-0)
