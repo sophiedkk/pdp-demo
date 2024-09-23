@@ -1,0 +1,29 @@
+[gd_scene load_steps=5 format=3 uid="uid://rpht7juumrni"]
+
+[ext_resource type="Texture2D" uid="uid://817qtd6djif0" path="res://assets/groningen_wikipedia.jpg" id="1_sdyta"]
+[ext_resource type="Script" path="res://eierbal.gd" id="2_7l5px"]
+[ext_resource type="Texture2D" uid="uid://dbang1yimgkwm" path="res://assets/eierbal_wikipedia_cropped.png" id="2_mseh2"]
+
+[sub_resource type="CircleShape2D" id="CircleShape2D_4csbp"]
+radius = 49.6435
+
+[node name="Node" type="Node"]
+
+[node name="Background" type="Sprite2D" parent="."]
+position = Vector2(645, 1148)
+scale = Vector2(2.037, 2.037)
+texture = ExtResource("1_sdyta")
+
+[node name="Eierbal" type="Area2D" parent="."]
+scale = Vector2(2.037, 2.037)
+script = ExtResource("2_7l5px")
+speed = 400
+
+[node name="Sprite2D" type="Sprite2D" parent="Eierbal"]
+scale = Vector2(0.0671166, 0.0671166)
+texture = ExtResource("2_mseh2")
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="Eierbal"]
+shape = SubResource("CircleShape2D_4csbp")
+
+[connection signal="input_event" from="Eierbal" to="Eierbal" method="_on_input_event"]
