@@ -34,6 +34,7 @@ winget install Git.Git
 
 It should create a folder in the directory in which you ran the command. You can see the current directory in
 Windows with `chdir` and on Mac/Linux with `pwd`. Again: to navigate directories you can use the `cd` command.
+To list the contents of the current directory please use `ls` on Mac/Linux and `dir` on Windows.
 
 ## Open the project in Godot
 
